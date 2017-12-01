@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         w= (WebView) findViewById(R.id.webView);
         w.setWebViewClient(new myWebClient());
         w.getSettings().setJavaScriptEnabled(true);
-        w.loadUrl("http://anilraj.pythonanywhere.com/m_student");
+        w.loadUrl("http://anilraj.pythonanywhere.com/m_slogin");
     }
     public class myWebClient extends WebViewClient
     {
